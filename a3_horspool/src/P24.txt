@@ -1,0 +1,46 @@
+
+10 different input search patterns
+1 - a
+2 - at
+3 - you
+4 - your
+5 - tempt
+6 - guelph
+7 - quizzes
+8 - blizzard
+9 - algorithm
+10 - checkboxes
+
+
+Brute Force performance test (number of shift patterns - performance time):
+1 - 2102412 - 30ms
+2 - 2682458 - 35ms
+3 - 2821606 - 40ms
+4 - 2822283 - 44ms
+5 - 2823843 - 36ms
+6 - 2820780 - 33ms
+7 - 2823932 - 32ms
+8 - 2823952 - 34ms
+9 - 2823942 - 35ms
+10 - 2823952 - 41ms
+
+Horspool's algorithm performance test(number of shift patterns - performance time):
+1 - 1931351 - 431ms
+2 - 1260805 - 423ms
+3 - 804253 - 464ms
+4 - 533411 - 431ms
+5 - 388145 - 419ms
+6 - 287489 - 477ms
+7 - 250548 - 461ms
+8 - 174591 - 419ms
+9 - 130071 - 424ms
+10 - 84706 - 420ms
+
+
+
+Average ratios for both algorithms
+bruteForce shift patterns - (2102412 + 2682458 + ...) / 10 = 2736916
+bruteForce performance time - (30 + 35 + 40 + 44 + 36 + 33 + 32 + 34 + 35 + 41) / 10 =  36
+
+horspool's algorithm shift pattern -(1931351 + 1260805 + ...) / 10 = 584537
+horspool's algorithm performance time - (431 + 423 + 464 + 431 + 419 + 477 + 461 + 419 + 424 + 420) / 10 = 436.9
