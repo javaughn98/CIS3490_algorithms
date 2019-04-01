@@ -1,5 +1,4 @@
 Name: Javaughn Burke
-StudentID#: 1025920
 Assignment 3
 Date: February 27, 2019
 
